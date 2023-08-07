@@ -18,20 +18,33 @@ I developed a Logistic Regression model to predict the likelihood of heart disea
 Feature Selection: After analyzing the dataset, I selected relevant features that could contribute to predicting heart disease outcomes.
 HEART DISEASE DESCRIPTION
 
-age (Age of the patient in years)
-origin (place of study)
-sex (Male/Female)
-cp chest pain type ([typical angina, atypical angina, non-anginal, asymptomatic])
-trestbps resting blood pressure (resting blood pressure (in mm Hg on admission to the hospital))
-chol (serum cholesterol in mg/dl)
-fbs (if fasting blood sugar > 120 mg/dl)
-restecg (resting electrocardiographic results) -- Values: [normal, stt abnormality, lv hypertrophy]
-thalach: maximum heart rate achieved
-exang: exercise-induced angina (True/ False)
-oldpeak: ST depression induced by exercise relative to rest
-slope: the slope of the peak exercise ST segment
-ca: number of major vessels (0-3) colored by fluoroscopy
-thal: [normal; fixed defect; reversible defect]
+1.age (Age of the patient in years)
+
+2.sex (Male/Female)]
+
+3.cp chest pain type ([typical angina, atypical angina, non-anginal, asymptomatic])
+
+4.trestbps resting blood pressure (resting blood pressure (in mm Hg on admission to the hospital))
+
+5. chol (serum cholesterol in mg/dl)
+
+6. fbs (if fasting blood sugar > 120 mg/dl)
+
+7. restecg (resting electrocardiographic results) -- Values: [normal, stt abnormality, lv hypertrophy]
+
+8. thalach: maximum heart rate achieved
+
+9.exang: exercise-induced angina (True/ False)
+
+10.  oldpeak: ST depression induced by exercise relative to rest
+
+11. slope: the slope of the peak exercise ST segment
+
+12.  ca: number of major vessels (0-3) colored by fluoroscopy
+
+13.  thal: [normal; fixed defect; reversible defect]
+
+
 
 Model Training: I split the dataset into training and testing sets, and trained the Logistic Regression model using the training data
 Model Evaluation: The model's accuracy was evaluated using the testing dataset. The achieved accuracy was approximately 85%.
