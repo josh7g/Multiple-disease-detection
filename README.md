@@ -16,7 +16,24 @@ Logistic Regression Model
 I developed a Logistic Regression model to predict the likelihood of heart disease. The following steps were taken:
 
 Feature Selection: After analyzing the dataset, I selected relevant features that could contribute to predicting heart disease outcomes.
-Model Training: I split the dataset into training and testing sets, and trained the Logistic Regression model using the training data.
+HEART DISEASE DESCRIPTION
+
+age (Age of the patient in years)
+origin (place of study)
+sex (Male/Female)
+cp chest pain type ([typical angina, atypical angina, non-anginal, asymptomatic])
+trestbps resting blood pressure (resting blood pressure (in mm Hg on admission to the hospital))
+chol (serum cholesterol in mg/dl)
+fbs (if fasting blood sugar > 120 mg/dl)
+restecg (resting electrocardiographic results) -- Values: [normal, stt abnormality, lv hypertrophy]
+thalach: maximum heart rate achieved
+exang: exercise-induced angina (True/ False)
+oldpeak: ST depression induced by exercise relative to rest
+slope: the slope of the peak exercise ST segment
+ca: number of major vessels (0-3) colored by fluoroscopy
+thal: [normal; fixed defect; reversible defect]
+
+Model Training: I split the dataset into training and testing sets, and trained the Logistic Regression model using the training data
 Model Evaluation: The model's accuracy was evaluated using the testing dataset. The achieved accuracy was approximately 85%.
 4. Diabetes Prediction
 Support Vector Machine (SVM) Model
