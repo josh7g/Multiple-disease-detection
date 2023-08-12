@@ -17,7 +17,6 @@ diabetes_model = pickle.load(open('/Users/joshuanketsiah/Documents/DS PROJECTS/M
 
 heart_disease_model = pickle.load(open('/Users/joshuanketsiah/Documents/DS PROJECTS/MACHINE LEARNING/Multiple Disease Detection/saved models/heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('/Users/joshuanketsiah/Documents/DS PROJECTS/MACHINE LEARNING/Multiple Disease Detection/saved models/parkinsons_model.sav', 'rb'))
 
 
 
